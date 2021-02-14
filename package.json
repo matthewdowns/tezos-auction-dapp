@@ -1,0 +1,16 @@
+{
+    "private": true,
+    "scripts": {
+        "start": "npm run client:serve",
+        "client:build": "cd ./client && npm run build",
+        "client:serve": "cd ./client && npm run serve"
+    },
+    "workspaces": [
+        "./app",
+        "./contract"
+    ],
+    "devDependencies": {
+        "dotenv": "^8.2.0",
+        "node-polyfill-webpack-plugin": "^1.0.2"
+    }
+}
