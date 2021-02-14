@@ -1,2 +1,2 @@
 # tezos-auction-dapp
-A simple Tezos auction DApp.
+An auction smart contract and DApp on the Tezos blockchain.
