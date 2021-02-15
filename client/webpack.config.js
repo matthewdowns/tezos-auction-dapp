@@ -52,7 +52,8 @@ module.exports = (env, argv) => {
             }),
             new DefinePlugin({
                 TEZOS_RPC: JSON.stringify(isProd ? 'https://mainnet-tezos.giganode.io' : 'https://testnet-tezos.giganode.io'),
-                TEZOS_CONTRACT_ADDRESS: JSON.stringify('tz1dxqeeYyPq32XSQyX2Mb2X6VxSQnfNz4DF')
+                TEZOS_CONTRACT_ADDRESS: JSON.stringify('tz1dxqeeYyPq32XSQyX2Mb2X6VxSQnfNz4DF'),
+                TEZOS_SIGNER_KEY: JSON.stringify('')
             })
         ],
         resolve: {
